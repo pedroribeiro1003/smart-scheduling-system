@@ -26,4 +26,6 @@ Sistema de agendamento moderno desenvolvido com Next.js, com foco em praticar de
 
 ```bash
 npm install
-npm run dev
+npm run dev 
+
+Atualizado agora
