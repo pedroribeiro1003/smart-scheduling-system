@@ -1,19 +1,26 @@
 export default function Home() {
   return (
-    <main style={{
-      display: "flex",
-      height: "100vh",
-      justifyContent: "center",
-      alignItems: "center"
-    }}>
-      <div style={{ textAlign: "center" }}>
-        <h1>Smart Scheduling System</h1>
-        <p>Sistema de agendamento online</p>
+    <main className="flex min-h-screen items-center justify-center bg-white text-black">
+      
+      <div className="text-center">
+        
+        <h1 className="text-3xl font-bold mb-2">
+          Smart Scheduling
+        </h1>
 
-        <a href="/booking" style={{ color: "blue" }}>
+        <p className="text-gray-600 mb-6">
+          Sistema de agendamento online
+        </p>
+
+        <a
+          href="/booking"
+          className="inline-block bg-black text-white px-6 py-3 rounded-lg hover:opacity-80 transition"
+        >
           Ir para agendamento
         </a>
+
       </div>
+
     </main>
   );
 }
